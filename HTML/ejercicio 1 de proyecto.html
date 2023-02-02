@@ -6,27 +6,45 @@
      <!---En el head se determina los bordes, con el box-sizing y los margenes.-->
      <style>
         *{
-            box-sizing: border-box 
+        box-sizing: border-box 
         }
         body{
-            margin: 0px
+        margin:0px
         }
-
-     </style>
-    
+        .mainheader{
+            background-color: #2ddf5c;
+            padding: 8px 16px;
+            width: 100%;
+            }
         
+        li.main-nav-item{
+            display: inline-block;
+        }
+        ul.main-nav-items {
+            display: inline-block;
+        }
+        nav.main-nav{
+            display: inline-block;
+        }
+        header.main-header{
+            display: inline-block;
 
+        }
+        </style>
      </div>
 </head>
 <body>
     <!---En el body he determinado una lista sin orden con un div y un nav, y esa lista contiene 3 elementos.-->
-        <div>
-        <h1>BANCO PRUEBA</h1>
+        <div class="mainheader">
+        <img src="../IMG/logo banco.png" alt="logo banco" width="100">
       <nav>
-        <ul>
-            <li> Sobre nosotros</li>
-            <li> Iniciar sesión</li>
-            <li> Contactanos</li>
+        <ul class="main-nav-items">
+            <b>
+                <li class="main-nav-item"> Sobre nosotros</li>
+                <li class="main-nav-item"> Iniciar sesión</li>
+                <li class="main-nav-item"> Contactos</li>
+            </b>
+           
         </ul>
         </nav>  
     </nav>
