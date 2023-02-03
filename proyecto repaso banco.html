@@ -8,6 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAGINA BANCO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet"> 
+
     <!--Ejercicio 2 del proyecto: añade al header (utilizando la clase la main-header) laspropiedades background-color: #2ddf5c; 
         padding: 8px 16px; width:100% (width toma elvalor 100% por defecto en elementos de tipo block como el header, 
         por lo que no seríanecesario establecer esta propiedad).-->
@@ -18,7 +22,8 @@
         * {
             
             box-sizing: border-box;
-          
+            font-family: 'Montserrat', sans-serif;
+           
         }
         body {
             margin: 0px;
@@ -32,6 +37,8 @@
         li.main-nav-item{
            display: inline-block;
            padding: 20px;
+           background-color: rgb(177, 171, 171);
+           color:black;
 
         }
         ul.main-nav-items{   
@@ -44,6 +51,7 @@
             display: inline-block;
             text-align: right;
             width:calc(100% - 90px);
+
         }
     
         .main-header > div{
@@ -64,7 +72,6 @@
         }
     </style>
     <!--- p.calibri contiene contenido para editar la letra, fuente, alineación, y tamañao.-->
-
     <!---Ejercicio 4 del proyecto: muestra todos los elementos de la cabecera en una única línea,estableciendo el div del logo y el nav (clase main-nav) a display:inline-block. Para el divdel logo utiliza el selector de combinación .main-header > div-->
 </head>
 <!--Ejercicio 5 del proyecto: alinea los elementos del menú a la derecha estableciendo laspropiedades   width: 100% y text-align: right en la clase main-nav 
