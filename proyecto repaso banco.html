@@ -1,0 +1,76 @@
+<!--Ejercicio 1 del proyecto: escribir los estilos CSS para la cabecera de la página: el logo onombre de la aplicación (Banco)
+ dentro de un div y el menú en una lista desordenadadentro de un nav. Establece la propiedad box-sizing: border-box con el selector universaly margin: 0 para 
+ el elemento body-->
+
+<!<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA BANCO</title>
+    <!--Ejercicio 2 del proyecto: añade al header (utilizando la clase la main-header) laspropiedades background-color: #2ddf5c; 
+        padding: 8px 16px; width:100% (width toma elvalor 100% por defecto en elementos de tipo block como el header, 
+        por lo que no seríanecesario establecer esta propiedad).-->
+    <style>
+        * {
+            
+            box-sizing: border-box;
+          
+        }
+        body {
+            margin: 0px;
+        }
+        header.main-header{
+            background-color: #2ddf5c;
+            padding: 8px 16px
+            
+        }
+        li.main-nav-item{
+           display: inline-block;
+           padding: 20px;
+
+        }
+        ul.main-nav-items{   
+            display: inline-block;
+            margin:0%
+            padding: 0
+        
+        }
+        nav.main-nav{
+            display: inline-block;
+            text-align: right;
+            width:100%;
+            width:calc(100%-49px);
+        }
+    
+        .main-header > div{
+            display:inline-block;
+        }
+    </style>
+    <!---Ejercicio 4 del proyecto: muestra todos los elementos de la cabecera en una única línea,estableciendo el div del logo y el nav (clase main-nav) a display:inline-block. Para el divdel logo utiliza el selector de combinación .main-header > div-->
+</head>
+<!--Ejercicio 5 del proyecto: alinea los elementos del menú a la derecha estableciendo laspropiedades width: 100% y text-align: right en la clase main-nav 
+    (los elementos delmenú volverán a estar en una línea distinta al logo porque el menú ocupa ahora el 100%de su contenedor). 
+    Aplica también estilos a la clase main-nav items: margin: 0;padding: 0; list-style: none;-->
+
+<body>
+    <!--Ejercicio 3: añade la propiedad display:inline-block a todos los elementos li de lacabecera utilizando la clase main-nav item para todos ellos.
+     Añade también la clasemain-nav items a la etiqueta ul que engloba a todos los elementos li de la cabecera, 
+     la clase main-nav a la etiqueta nav y la clase main-header a la etiqueta header.-->
+    <header class="main-header">
+        <div>
+            <h1><img src="../repasos/lo-go.png" alt="logo BANCO"></h1>
+        </div>    
+            <nav class="main-nav">
+                <ul class="main-nav-items">
+                    <li class="main-nav-item">Inicio</li>
+                    <li class="main-nav-item">Servicios</li>
+                    <li class="main-nav-item">Acceso cliente</li>
+                    <li class="main-nav-item">FAQ</li>
+                    <li class="main-nav-item">Contacto</li>
+                </ul>
+            </nav>
+       
+    </header>
+</body>
+</html>
