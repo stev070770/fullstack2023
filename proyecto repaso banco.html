@@ -36,9 +36,14 @@
         }
         li.main-nav-item{
            display: inline-block;
-           padding: 20px;
+           padding: 5px;
            background-color: rgb(177, 171, 171);
-           color:rgb(108, 1, 1)
+           color:rgb(108, 1, 1);
+           margin: 1px;
+           border: 1.5px solid black;
+           border-radius: 7px;
+
+         
            
     
 
@@ -47,12 +52,12 @@
             display: inline-block;
             margin:0%
             padding: 0
-            list-style: none;        
+            list-style: none;   
         }
         nav.main-nav{
             display: inline-block;
             text-align: right;
-            width:calc(100% - 120px);
+            width:calc(100% - 80px);
             vertical-align: middle;
 
         }
@@ -72,7 +77,6 @@
             text-decoration: none;
             font-weight: bold;
             font-size: 22px;
-            
         }
         a{
             text-decoration:none;
@@ -93,15 +97,17 @@ Añade también la clasemain-nav items a la etiqueta ul que engloba a todos los 
     
     <header class="main-header">
         <div>
-            <h1 clas="main-header-brand">Banco </h1> 
+            <h1 clas="main-header-brand"><img src="./IMG/icono banco.png" width="70px" alt="logo BANCO"></h1> 
         </div>    
             <nav class="main-nav">
                 <ul class="main-nav-items">
-                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">Inicio</a></li>
-                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">Servicios</a></li>
-                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">Acceso cliente</a></li>
-                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">FAQ</a></li>
-                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">Contacto</a></li>
+                    <a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">
+                    <li class="main-nav-item">Inicio</li>
+                    <li class="main-nav-item">Servicios</li>
+                    <li class="main-nav-item">Acceso cliente</li>
+                    <li class="main-nav-item">FAQ</li>
+                    <li class="main-nav-item">Contacto</li>
+                </a>
                 </ul>
             </nav>
      </header>
