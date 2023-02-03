@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAGINA BANCO</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet"> 
 
     <!--Ejercicio 2 del proyecto: añade al header (utilizando la clase la main-header) laspropiedades background-color: #2ddf5c; 
         padding: 8px 16px; width:100% (width toma elvalor 100% por defecto en elementos de tipo block como el header, 
@@ -29,7 +29,7 @@
             margin: 0px;
         }
         header.main-header{
-            background-color: grey;
+            background-color: rgb(128, 128, 128);
             padding: 8px 16px
             font-family: Arial, Helvetica, sans-serif;
             
@@ -38,7 +38,9 @@
            display: inline-block;
            padding: 20px;
            background-color: rgb(177, 171, 171);
-           color:black;
+           color:rgb(108, 1, 1)
+           
+    
 
         }
         ul.main-nav-items{   
@@ -50,12 +52,14 @@
         nav.main-nav{
             display: inline-block;
             text-align: right;
-            width:calc(100% - 90px);
+            width:calc(100% - 120px);
+            vertical-align: middle;
 
         }
     
         .main-header > div{
             display:inline-block;
+         vertical-align: middle;
         }
     
         p.calibri{
@@ -69,6 +73,10 @@
             font-weight: bold;
             font-size: 22px;
             
+        }
+        a{
+            text-decoration:none;
+            color:rgb(108, 1, 1)
         }
     </style>
     <!--- p.calibri contiene contenido para editar la letra, fuente, alineación, y tamañao.-->
@@ -89,11 +97,11 @@ Añade también la clasemain-nav items a la etiqueta ul que engloba a todos los 
         </div>    
             <nav class="main-nav">
                 <ul class="main-nav-items">
-                    <li class="main-nav-item">Inicio</li>
-                    <li class="main-nav-item">Servicios</li>
-                    <li class="main-nav-item">Acceso cliente</li>
-                    <li class="main-nav-item">FAQ</li>
-                    <li class="main-nav-item">Contacto</li>
+                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">Inicio</a></li>
+                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">Servicios</a></li>
+                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">Acceso cliente</a></li>
+                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">FAQ</a></li>
+                    <li class="main-nav-item"><a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">Contacto</a></li>
                 </ul>
             </nav>
      </header>
