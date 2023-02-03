@@ -11,7 +11,10 @@
     <!--Ejercicio 2 del proyecto: añade al header (utilizando la clase la main-header) laspropiedades background-color: #2ddf5c; 
         padding: 8px 16px; width:100% (width toma elvalor 100% por defecto en elementos de tipo block como el header, 
         por lo que no seríanecesario establecer esta propiedad).-->
+
+        <!---En el style SIEMPRE se define en el head, solo ahi se generan todas las class para el body-->
     <style>
+        
         * {
             
             box-sizing: border-box;
@@ -21,8 +24,9 @@
             margin: 0px;
         }
         header.main-header{
-            background-color: #2ddf5c;
+            background-color: grey;
             padding: 8px 16px
+            font-family: Arial, Helvetica, sans-serif;
             
         }
         li.main-nav-item{
@@ -46,10 +50,21 @@
         .main-header > div{
             display:inline-block;
         }
+        h2{
+            text-align: center;
+
+        }
+        p.calibri{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: left;
+            font-size: 30px;
+        }
     </style>
+    <!--- p.calibri contiene contenido para editar la letra, fuente, alineación, y tamañao.-->
+
     <!---Ejercicio 4 del proyecto: muestra todos los elementos de la cabecera en una única línea,estableciendo el div del logo y el nav (clase main-nav) a display:inline-block. Para el divdel logo utiliza el selector de combinación .main-header > div-->
 </head>
-<!--Ejercicio 5 del proyecto: alinea los elementos del menú a la derecha estableciendo laspropiedades width: 100% y text-align: right en la clase main-nav 
+<!--Ejercicio 5 del proyecto: alinea los elementos del menú a la derecha estableciendo laspropiedades   width: 100% y text-align: right en la clase main-nav 
     (los elementos delmenú volverán a estar en una línea distinta al logo porque el menú ocupa ahora el 100%de su contenedor). 
     Aplica también estilos a la clase main-nav items: margin: 0;padding: 0; list-style: none;-->
 
@@ -59,8 +74,10 @@
      la clase main-nav a la etiqueta nav y la clase main-header a la etiqueta header.-->
     <header class="main-header">
         <div>
-            <h1><img src="../repasos/lo-go.png" alt="logo BANCO"></h1>
+            <h1><img src="../fullstack2023/IMG/logo.png" alt="logo BANCO"></h1>
+
         </div>    
+        
             <nav class="main-nav">
                 <ul class="main-nav-items">
                     <li class="main-nav-item">Inicio</li>
@@ -70,7 +87,15 @@
                     <li class="main-nav-item">Contacto</li>
                 </ul>
             </nav>
+
        
     </header>
+    <h2 >
+        INICIO
+    </h2>
+<p class="calibri">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quis itaque voluptate nam hic perspiciatis eaque deleniti quia ullam quidem eveniet, possimus tempore aliquam distinctio adipisci omnis explicabo voluptatibus accusantium!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente dolor mollitia excepturi quia vero eos magnam quod. Distinctio, mollitia. Magni quae, enim expedita quam ducimus placeat praesentium rerum quasi?
+</p>
 </body>
 </html>
