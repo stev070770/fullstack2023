@@ -18,7 +18,7 @@
 
         <!---En el style SIEMPRE se define en el head, solo ahi se generan todas las class para el body-->
     <style>
-        
+      
         * {
             
             box-sizing: border-box;
@@ -29,7 +29,7 @@
             margin: 0px;
         }
         header.main-header{
-            background-color: rgb(196, 196, 196);
+            background-color: rgb(116, 165, 214);
             padding: 8px 16px
             font-family: Arial, Helvetica, sans-serif;
             
@@ -37,16 +37,11 @@
         li.main-nav-item{
            display: inline-block;
            padding: 5px;
-           background-color: rgb(177, 171, 171);
-           color:rgb(108, 1, 1);
+           background-color: rgb(0, 0, 0);
+           color:rgb(246, 246, 246);
            margin: 1px;
            border: 1.5px solid black;
            border-radius: 7px;
-
-         
-           
-    
-
         }
         ul.main-nav-items{   
             display: inline-block;
@@ -81,7 +76,16 @@
         a{
             text-decoration:none;
             color:rgb(108, 1, 1)
+
         }
+        pie-pag{
+            background-color: ;
+            font-family: 'Montserrat', sans-serif;
+        }
+        div:hover{
+            background-color: black;
+        }
+        
     </style>
     <!--- p.calibri contiene contenido para editar la letra, fuente, alineación, y tamañao.-->
     <!---Ejercicio 4 del proyecto: muestra todos los elementos de la cabecera en una única línea,estableciendo el div del logo y el nav (clase main-nav) a display:inline-block. Para el divdel logo utiliza el selector de combinación .main-header > div-->
@@ -98,9 +102,10 @@ Añade también la clasemain-nav items a la etiqueta ul que engloba a todos los 
     <header class="main-header">
         <div>
             <h1 clas="main-header-brand"><img src="./IMG/icono banco.png" width="70px" alt="logo BANCO"></h1> 
-        </div>    
+        </div class="div:hover">    
             <nav class="main-nav">
                 <ul class="main-nav-items">
+        
                     <a href="https://app.box.com/s/2usokjzn3ppcpl3nbzrz7ueu2shjnb7h">
                     <li class="main-nav-item">Inicio</li>
                     <li class="main-nav-item">Servicios</li>
@@ -110,7 +115,13 @@ Añade también la clasemain-nav items a la etiqueta ul que engloba a todos los 
                 </a>
                 </ul>
             </nav>
+            <footer >
+            
+                
+
+        </footer>
      </header>
+     
     
 </body>
 </html>
