@@ -12,10 +12,10 @@ if (letsuma>letsuma2) {
 }
 //ejercico3
 
-ang1=60;
-ang2=100;
-ang3=20;
-angtotal= ang1 + ang2 + ang3
+const ang1=60;
+const ang2=100;
+const ang3=20;
+let angtotal= ang1 + ang2 + ang3
 if (angtotal== 180) 
 {
     document.write("La suma de los 3 angulos es igual a 180")
@@ -24,13 +24,30 @@ if (angtotal== 180)
 }
 //ejercicio4
 
-const number=2;
-const par=2%2;
-if (number%par)
+const a=2;
+if ( a % 2==0)
  { 
-    document.writer("Es par")   
+    document.write("Es par")   
 }
  else 
 { 
-    document.writer("No es par")
+    document.write("No es par")
 }
+//ejercicio5
+let x=4
+let y=2
+let z=3
+if (x>y && x>z) {
+    console.log(`El numero mayor es ${x}`)}
+         else
+        {
+        if(y>z)
+        {
+         console.log(`El numero mayor es ${y}`)
+        }
+        else    
+        {
+        console.log(`El numero mayor es ${z}`)
+        }
+}
+
