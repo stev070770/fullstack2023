@@ -63,7 +63,7 @@ let dia= "miercoles";
     case "miercoles"=
        console.log(`Hoy es miercoles`);
     break;
-    case "jueves"=
+    case jueves=
         console.log(`Hoy es jueves`);
     break;
     case "viernes"=
@@ -74,27 +74,4 @@ let dia= "miercoles";
     break;
     default=
     console.log(`Hoy es domingo`);
-}
-let fecha = new Date();
-let mes = fecha.getMonth();
-switch (mes) {
-    case 0:
-        document.write("Es enero");
-    break;
-    case 1:
-        document.write("Es febrero");
-        break;
-    case 2:
-        document.write("Es marzo");
-        break;
-    case 3: 
-    document.write("Es abril");
-        break;
-    case 4:
-        document.write("Es mayo");
-        break;
-    default:
-        break;
-
-
 }
