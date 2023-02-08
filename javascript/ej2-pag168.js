@@ -37,7 +37,8 @@ if ( a % 2==0)
 let x=4
 let y=2
 let z=3
-if (x>y && x>z) {
+if (x>y && x>z)
+    {
     console.log(`El numero mayor es ${x}`)}
          else
         {
@@ -49,5 +50,51 @@ if (x>y && x>z) {
         {
         console.log(`El numero mayor es ${z}`)
         }
+    }
+//Ejercicios condicional -switch
+let dia= "miercoles";
+{
+    case("lunes");
+       console.log (`Hoy es lunes`);
+    break;
+    case "martes"=
+        console.log(`Hoy es martes`);
+    break;
+    case "miercoles"=
+       console.log(`Hoy es miercoles`);
+    break;
+    case "jueves"=
+        console.log(`Hoy es jueves`);
+    break;
+    case "viernes"=
+        console.log(`Hoy es viernes`);
+    break;
+    case "sabado"=
+        console.log(`Hoy es sabado`);
+    break;
+    default=
+    console.log(`Hoy es domingo`);
 }
+let fecha = new Date();
+let mes = fecha.getMonth();
+switch (mes) {
+    case 0:
+        document.write("Es enero");
+    break;
+    case 1:
+        document.write("Es febrero");
+        break;
+    case 2:
+        document.write("Es marzo");
+        break;
+    case 3: 
+    document.write("Es abril");
+        break;
+    case 4:
+        document.write("Es mayo");
+        break;
+    default:
+        break;
 
+
+}
